@@ -13,16 +13,13 @@
     "dev": "rm -rf .cache && gatsby develop",
     "gh-pages": "cp  CNAME ./public/ && gh-pages -d public",
     "lint": "npm run lint:es && npm run lint:style",
-    "lint-staged": "lint-staged",
-    "lint-staged:js": "eslint --ext .js",
     "lint:es": "eslint ./ --ext '.js,.jsx'",
     "lint:style": "stylelint \"site/**/*.less\" --syntax less",
     "prettier": "prettier --write ./site/**/**/**",
     "serve": "gatsby serve",
     "site": "cross-env NODE_OPTIONS=--max-old-space-size=4096 npm run build && npm run gh-pages",
-    "start": "gatsby develop",
-    "test": "npm run lint"
-  },  
+    "start": "gatsby develop"
+  },
   "dependencies": {
     "@types/classnames": "^2.2.7",
     "@types/react-document-title": "^2.0.3",
@@ -88,7 +85,6 @@
     "github-slugger": "^1.2.1",
     "js-beautify": "^1.7.5",
     "less": "^3.8.1",
-    "lint-staged": "^7.0.5",
     "lz-string": "^1.4.4",
     "mdast-util-to-string": "^1.0.5",
     "npm-run-all": "^4.0.2",
