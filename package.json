@@ -17,24 +17,12 @@
     "lint-staged:js": "eslint --ext .js",
     "lint:es": "eslint ./ --ext '.js,.jsx'",
     "lint:style": "stylelint \"site/**/*.less\" --syntax less",
-    "precommit": "npm run lint-staged",
     "prettier": "prettier --write ./site/**/**/**",
     "serve": "gatsby serve",
     "site": "cross-env NODE_OPTIONS=--max-old-space-size=4096 npm run build && npm run gh-pages",
     "start": "gatsby develop",
     "test": "npm run lint"
-  },
-  "pre-commit": [
-    "precommit"
-  ],
-  "lint-staged": {
-    "**/*.less": "stylelint --syntax less",
-    "**/*.{js,jsx,less}": [
-      "prettier --write",
-      "git add"
-    ],
-    "**/*.{js,jsx}": "npm run lint-staged:js"
-  },
+  },  
   "dependencies": {
     "@types/classnames": "^2.2.7",
     "@types/react-document-title": "^2.0.3",
@@ -64,7 +52,7 @@
     "@babel/generator": "^7.0.0",
     "@babel/plugin-proposal-decorators": "^7.1.6",
     "@babel/traverse": "^7.0.0",
-    "antd-tools": "^5.1.4",
+    "antd-tools": "^7.3.5",
     "classnames": "^2.2.5",
     "commander": "~2.17.0",
     "concurrently": "^3.5.0",

@@ -9,14 +9,10 @@ import Page2 from './Page2';
 function Home(props) {
   const { intl } = props;
   return (
-    <DocumentTitle
-      title={`Ant Design Pro - ${intl.formatMessage({
-        id: 'app.home.slogan',
-      })}`}
-    >
+    <DocumentTitle title="one-front">
       <div className="home-wrapper">
         <Banner {...props} />
-        <Page1 {...props} />
+        {/* <Page1 {...props} /> */}
         <Page2 {...props} />
       </div>
     </DocumentTitle>

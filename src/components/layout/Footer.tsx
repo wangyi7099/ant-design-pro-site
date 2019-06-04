@@ -31,7 +31,7 @@ class Footer extends React.Component<{
   render() {
     return (
       <footer id="footer">
-        <div className="footer-wrap">
+        {/* <div className="footer-wrap">
           <Row>
             <Col md={6} sm={24} xs={24}>
               <div className="footer-center">
@@ -266,7 +266,7 @@ class Footer extends React.Component<{
               </div>
             </Col>
           </Row>
-        </div>
+        </div> */}
         <div className="bottom-bar">
           Made with <span className="heart">❤</span> by
           <a target="_blank" rel="noopener noreferrer" href="https://yuque.com/afx/blog">
