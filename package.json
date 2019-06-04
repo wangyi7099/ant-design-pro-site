@@ -90,7 +90,6 @@
     "npm-run-all": "^4.0.2",
     "nprogress": "^0.2.0",
     "parallelshell": "^3.0.1",
-    "pre-commit": "^1.2.2",
     "prettier": "^1.14.0",
     "prismjs": "^1.15.0",
     "rc-drawer-menu": "^1.1.0",
