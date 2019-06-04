@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'ANT DESIGN PRO',
-    description: 'Out-of-box UI solution for enterprise applications',
-    author: 'Ant Design',
-    siteUrl: `https://pro.ant.design`,
+    title: 'One Front',
+    description: '极速开发框架 - 前端',
+    author: 'wangyi',
+    siteUrl: `https://gitee.com/stylefeng/one-front`,
   },
   plugins: [
     {
