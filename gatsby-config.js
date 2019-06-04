@@ -65,8 +65,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Ant Design Pro',
-        short_name: 'Ant Design Pro Doc',
+        name: 'One Front',
+        short_name: 'One Front Doc',
         display: 'standalone',
         start_url: './?utm_source=homescreen',
         theme_color: '#002140',
