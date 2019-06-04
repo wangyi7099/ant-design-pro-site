@@ -29,7 +29,6 @@ function Page2({ location }) {
 
               {/* Start */}
               <br />
-              <div>$ cd my-app</div>
               <div>$ npm install</div>
               <div>
                 $ npm start{' '}
