@@ -80,13 +80,13 @@ module.exports = async ({ graphql, actions }) => {
   createRedirect({
     fromPath: '/docs/',
     redirectInBrowser: true,
-    toPath: '/docs/getting-started',
+    toPath: '/docs/getting-started-cn',
   });
 
   createRedirect({
     fromPath: '/blog/',
     redirectInBrowser: true,
-    toPath: '/blog/change-theme',
+    toPath: '/blog/change-theme-cn',
   });
   Object.keys(redirects).map(path =>
     createRedirect({

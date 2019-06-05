@@ -60,7 +60,7 @@ export default class Article extends React.PureComponent<ArticleProps> {
       };
     };
     return (
-      <DocumentTitle title={`${title[locale] || title} - Ant Design`}>
+      <DocumentTitle title={`${title[locale] || title} - One Front`}>
         <>
           <article
             className="markdown"
@@ -91,7 +91,7 @@ export default class Article extends React.PureComponent<ArticleProps> {
             />
           </article>
           <div className="modifiedTime">
-            <AvatarList avatarList={avatarList} />
+            {/* <AvatarList avatarList={avatarList} /> */}
             <FormattedMessage id="app.content.modifiedTime" />
             {moment(modifiedTime).format('YYYY-MM-DD HH:mm:SS')}
           </div>
